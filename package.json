@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "Good read tc",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "cypress": "^12.9.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx cypress open"
   },
   "repository": {
     "type": "git",
